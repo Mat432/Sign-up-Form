@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(148deg, #000 37%, #fff 100%);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.picture {
+    background: url(NY.jpg);
+    background-size: contain;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 10vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 350vw;
+    height: 150px;
+    background-color: rgba(107, 72, 72, 0.63);
+}
+
+.logo p {
+    color: #fff;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 35px;
+}
+
+
+
+
+
