@@ -20,25 +20,37 @@
         <div class="right">
             
             <div class="text">
-            <h3>Welcome to Your new life. To fully immerse yourself in this new society, sign up for a membership today.</h3>
+            <h1>Welcome to Your new life. To fully immerse yourself in this new society, sign up for a membership today.</h1>
+            <p>Prosperity awaits You!</p>
             </div>
             
             <div class="form">
-            <fieldset>
-                <form action="#" method="post">
-                    <label for="first_name">First Name</label>
-                    <input type="text" id="first_name" name="fist_name">
+                    <div class="input">
+                    <label for="first_name">First Name *</label>
+                    <input type="text" id="first_name" name="fist_name" required>
+                    </div>
 
+                    <div class="input">
                     <label for="last_name">Last Name</label>
                     <input type="text" id="last_name" name="last_name">
+                    </div>
 
-                    <label for="user_email">Email Address</label>
-                    <input type="email" id="user_email" name="email">
+                    <div class="input">
+                    <label for="user_email">Email Address *</label>
+                    <input type="email" id="user_email" name="email" required>
+                    </div>
 
-                    <label for="user_password">Password</label>
-                    <input type="password" id="user_password" name="password">
+                    <div class="input">
+                    <label for="user_password">Password *</label>
+                    <input type="password" id="user_password" name="password" required>
+                    </div>
                 </form>
-            </fieldset>
+            </div>
+            <div class="button">
+                <button type="submit">Create Account</button>
+            </div>
+            <div class="text1">
+                <p>Already a member?</p><a href="#">Log In</a>
             </div>
         </div>
     </div>
